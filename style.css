@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+  }
+  
+body{
+    font-size: 16px;
+    color: #444;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    padding: 20px;
+  
+}
+#title {
+    background: #4264A8;
+}
+#title h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    color: #fff;
+}
+#title img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover; /* 비율을 유지하면서 채움 */
+    display: block;
+  }
+
+}
+#title .introText{
+    width: 100%;
+    height: 50vh;
+    /* background: #ccc; */
+    display: flex;
+    /* 수평 우측 */
+    justify-content: flex-end;
+    /* 수직 하단 */
+    align-items: flex-end;
+    text-align: right;
+}
+#title h2{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 24px;
+
+}
+#title .introText p {
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    line-height: 24px;
+}
+#title. .container{
+    padding-bottom: 40px;
+}
+#invitation{
+    background: #4264A8;
+    padding: 20px;
+}
+#invitation h2{
+    margin-bottom: 30px;
+}
+
+#invitation .container{
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 13px;
+    color: #444;
+  
+
+}
+#invitation .guestInfo {
+    margin-top: 50px;
+    font-weight: bold;
+  }
+  #call .banner {
+    height: 350px;
+    background: #4264A8;
+    line-height: 90px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    background-image: url(images/Untitled-5.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+ 
+    
+  }
+ 
+  #call .banner p{
+      padding-bottom: 20px;
+  }
+ 
+  
+  #call .phone {
+    text-align: center;
+    padding: 30px 0;
+  }
+  #call .phone img{
+      width: 50px;
+  }
+  #call .phone {
+    text-align: center;
+    padding: 30px 0;
+  }
+  #call{
+      box-shadow: 2px 2px 2px 2px #ccc;
+  }
+  
+  #call .phone  li{
+    display: inline-block;
+  }
+  #call .phone  li img {
+      width: 50px;
+  }
+  
+  #call .phone  li:first-child {
+    margin-right: 50px;
+  }
+  
+  #call .phone  li p{
+    margin-top: 10px;
+  }
+  #gallery .container {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      text-align: center;
+      
+  }
+  #gallery .container h2 {
+      margin-bottom: 30px;
+      font-size: 20px;
+  }
+#gallery figure img {
+    width: 100%;
+    display: block;
+}
+#gallery .gallerylist{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#gallery .gallerylist li{
+    width: calc( ( 100% - 20px) / 3);
+    height: 106px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#gallery .gallerylist li:nth-child(3n){
+    margin-right: 0;
+}
+
+#gallery .gallerylist li img{
+    width: 100%;
+    height: 106px;
+    object-fit: cover;
+}
+.video{
+    padding-bottom: 56.25%;
+    position: relative;
+    background: #ccc
+}
+.video iframe{
+    position: absolute;
+}
+
+#video p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#location {
+    text-align: center;
+    padding-top: 40px;
+  }
+  #location h2 {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  
+  #location .appLink {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px;
+  }
+  
+  #location .appLink li:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  #location .container {
+    padding-top: 30px;
+  }
+  
+  #location .transfer {
+    text-align: left;
+    line-height: 24px;
+    margin-bottom: 40px;
+  }
+  
+  #location .transfer dt {
+    margin-top: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-size: 15px;
+  }
+  #location .transfer dd{
+      font-size: 13px;
+  }
+
+  footer {
+    background: #444;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  footer a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  footer p {
+    line-height: 24px;
+  }
